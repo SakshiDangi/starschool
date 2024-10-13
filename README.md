@@ -1,5 +1,7 @@
 # StarSchool School Management Dashboard
 
+![demo](/public/db.png)
+
 ## 📝 Description
 
 **StarSchool**, This school management app streamlines administration by managing teachers, students, classes, and lessons. It tracks attendance, exam results, assignments, and student performance. Parents can access updates on multiple children, while teachers manage multiple subjects and classes. The app simplifies organizing lessons, exams, and assignments, ensuring efficient oversight of student progress and classroom activities.
