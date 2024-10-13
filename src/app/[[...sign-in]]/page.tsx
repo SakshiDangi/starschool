@@ -2,7 +2,7 @@
 
 import * as Clerk from "@clerk/elements/common";
 import * as SignIn from "@clerk/elements/sign-in";
-import { useUser } from "@clerk/nextjs";
+import { SignUpButton, useUser } from "@clerk/nextjs";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
@@ -29,7 +29,7 @@ const LoginPage = () => {
         >
           <h1 className="text-xl font-bold flex items-center gap-2">
             <Image src="/logo.png" alt="" width={24} height={24} />
-            StarSchool
+            SchooLama
           </h1>
           <h2 className="text-gray-400">Sign in to your account</h2>
           <Clerk.GlobalError className="text-sm text-red-400" />
@@ -61,6 +61,7 @@ const LoginPage = () => {
           >
             Sign In
           </SignIn.Action>
+          {/* <SignUpButton /> */}
         </SignIn.Step>
       </SignIn.Root>
     </div>
